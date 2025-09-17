@@ -9,6 +9,7 @@ app.get("/", (req, res) => {
   res.send("Backend = Node.js");
   res.send("Database = Postgres");
   res.send("Server = Render (Subject to change)");
+  res.send("Will try to update this as soon as ASAP");
 });
 
 app.listen(PORT, () => {
