@@ -38,7 +38,7 @@ function applyRules(letter, choice) {
   if (letter === "A" && choice === "TRUE") {
     setColors({ A: "green", E: "red", I: "green", O: "red" });
   } else if (letter === "A" && choice === "FALSE") {
-    setColors({ A: "red", E: "orange", I: "orange", O: "red" });
+    setColors({ A: "red", E: "orange", I: "orange", O: "green" });
   }
 
   else if (letter === "E" && choice === "TRUE") {
@@ -65,3 +65,4 @@ function setColors(map) {
     document.getElementById(key).style.backgroundColor = map[key];
   }
 }
+
