@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+img {
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.main {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    background-color: black;
+    border-color: white;
+}
+
+.rules h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.A {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.E {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.I {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    pointer-events: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.O {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    background-color: blueviolet;
+    display: none;
+}
+
+.popup button {
+    cursor: pointer;
+}
+
+.corner {
+    background-color: white;
+    font-size: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
